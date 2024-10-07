@@ -1,0 +1,67 @@
+body {
+    background-color: #008080; /* Teal background */
+    font-family: 'Courier New', monospace; /* Retro font */
+}
+
+.header-bg {
+    background-color: #000080; /* Dark blue header */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid #FFFFFF; /* White bottom border */
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Position it at the top */
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+.footer-bg {
+    background-color: #000080; /* Dark blue footer */
+    border-top: 2px solid #FFFFFF; /* White top border */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-text {
+    color: #FFFFFF; /* White footer text */
+    font-size: 0.9em; /* Slightly smaller font */
+}
+
+.card {
+    background-color: #C0C0C0; /* Light gray for card */
+    border: 2px solid #000080; /* Dark blue border */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s, box-shadow 0.2s, opacity 0.5s;
+    padding: 10px;
+    text-align: center; /* Centered content */
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    background-color: #FFFFFF; /* White button */
+    color: #000080; /* Dark blue text */
+    border: 2px solid #000080; /* Dark blue border */
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #000080; /* Dark blue hover */
+    color: #FFFFFF; /* White text on hover */
+}
+
+img.car {
+    width: 100%; /* Adjust size as needed */
+    height: auto;
+    max-width: 80px; /* Limit max width */
+    margin: 10px auto; /* Center image */
+}
